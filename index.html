@@ -11,34 +11,41 @@
 
 <body>
     <header>
-        <img class="logo" src="Logo.png" alt="logo de Alura">
+        <img class="logo" src="/imagenes/Logo.png" alt="logo de Alura">
         <h1>Encriptador Alura</h1>
     </header>
 
     <main>
-        <form>
 
-            <fieldset class="principal">
 
-                <textarea cols="27" rows="10" placeholder=" Introduce tu texto aqui..." id="ingreso"></textarea>
-                <div class="botones">
-                    <button type="submit" value="encriptar">Encriptar</button>
-                    <button type="submit" value="desencriptar">Desencriptar</button>
+        <section class="principal">
 
-                </div>
-            </fieldset>
+            <textarea id="ingreso" placeholder=" Introduce tu texto aqui..." ></textarea>
+            <p id="condicion">Solo minúsculas, sin acentos, ni carácteres especiales</p>
 
-            <fieldset class="resultado">
-                <img src="Mu+¦eco.png" alt="dibujo de un niño con una lupa">
-                <textarea cols="10" rows="4"  placeholder="No se encontró ningún mensaje" id="resultado"></textarea>
-                <button type="submit" value="copiar">Copiar</button>
+            <div class="botones">
 
-            </fieldset>
-        </form>
+                <button id="mensaje" onclick="encriptar()">Encriptar</button>
+                <button id="codigo"  onclick="desencriptar()">Desencriptar</button>
+                
+            </div>
+
+        </section>
+
+        <section class="resultado">
+            <textarea id="mostrarResultado" placeholder="Sin resultados..."></textarea>
+            
+            <img id="foto" src="imagenes/Muñeco.png" alt="dibujo de un niño con lupa">    
+                   
+        </section>
+        
+        <button id="copia"  onclick="copiar()">Copiar</button>
+       
+        <script src="script.js"></script>
     </main>
 
     <footer>
-        <p>&trade; Developed by Norma Suriano - 2024</p>
+        <p>&trade; Developed by Norma Suriano 2024</p>
 
     </footer>
 
