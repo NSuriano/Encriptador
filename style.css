@@ -1,4 +1,4 @@
- {
+* {
     box-sizing: border-box;
     margin: 0;
     text-align: center;
@@ -39,7 +39,7 @@ header h1 {
 
 
 body {
-    max-width: 375px;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -79,6 +79,7 @@ body {
     color: rgb(6, 16, 117);
     margin: 0 auto; 
     text-align: center;
+
 }
 
 .botones button,
@@ -141,7 +142,7 @@ body {
 footer {
     display: block;
     background: linear-gradient(120deg, #011831, #0b3f8c);
-    max-width: 375px;
+    width: 100%;
     height: 60px;
     text-align: center;
     color: aliceblue;
@@ -153,7 +154,7 @@ footer {
 }
 
 
-@media only screen and (min-width:480px) {
+@media only screen and (min-width:540px) {
     
     header {
         height: 35%;
@@ -169,7 +170,7 @@ footer {
         clear: right;
         text-align: center;
         justify-items: center;
-        padding-left: 25%;
+        padding-left: 30%;
      
     }
 
