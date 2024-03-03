@@ -141,7 +141,7 @@ body {
 footer {
     display: block;
     background: linear-gradient(120deg, #011831, #0b3f8c);
-    width: 100%;
+    max-width: 375px;
     height: 60px;
     text-align: center;
     color: aliceblue;
