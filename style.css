@@ -71,6 +71,7 @@ body {
     align-items: center;
     margin: 25px auto;
     color: #020240;
+    resize: none;
     /*  text-indent: 1em; sangria en el texto*/
 }
 
@@ -125,6 +126,7 @@ body {
     color: #0b3f8c;
     font-size: 17px;
     background: transparent;
+    resize: none;
 }
 
 #foto {
