@@ -2,8 +2,8 @@
 const code = [
     ['e', 'enter'],//indice o
     ['o', 'ober'],// 1
-    ['a', 'ai'],  // 2
-    ['i', 'imes'],// 3
+    ['i', 'imes'],  // 2
+    ['a', 'ai'],// 3
     ['u', 'ufat'] // 4
 ];
 
